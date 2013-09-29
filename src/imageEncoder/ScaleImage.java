@@ -1781,8 +1781,6 @@ public class ScaleImage {
     				
     				shiftBits = rShift % 7;
     				
-    				char upperRPart = circular_shift_certain_bits(r, 7, shiftBits);
-    				
     				g = circular_shift_certain_bits(g, 8, gShift);
     				
     				assert(b % 2 == 0);
